@@ -1,0 +1,10 @@
+.admin-header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: aliceblue;
+
+    max-width: 1000px;
+
+}
