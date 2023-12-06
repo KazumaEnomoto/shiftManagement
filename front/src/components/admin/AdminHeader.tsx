@@ -6,7 +6,10 @@ const AdminHeader: React.FC = () => {
     return (
         <div className="admin-header">
             <div>ヘッダーのタイトル</div>
-            <Button variant="contained" size="small">ログアウト</Button>
+            <div className="button-container">
+                <Button variant="contained" size="small">会員登録</Button>
+                <Button variant="contained" size="small">ログアウト</Button>
+            </div>
         </div>
     )
 }
