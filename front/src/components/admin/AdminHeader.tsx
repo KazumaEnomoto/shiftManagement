@@ -5,7 +5,7 @@ import '../../assets/admin/AdminHeader.css'
 const AdminHeader: React.FC = () => {
     return (
         <div className="admin-header">
-            <div>タイトルが入ります。</div>
+            <div>ヘッダーのタイトル</div>
             <Button variant="contained" size="small">ログアウト</Button>
         </div>
     )
